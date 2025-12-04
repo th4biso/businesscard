@@ -1,0 +1,42 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #031926;
+}
+
+.myPic{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    /*padding-left: 125px;*/
+    border-radius: 100px;
+    animation: backwards;
+}
+
+
+.myPic:hover{
+    cursor:wait;
+}
+
+
+
+.card{
+    display:flex;
+    padding: 20px;
+    justify-content: space-around;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(108, 153, 204);
+    border: 6px solid rgb(38, 0, 255);
+    border-radius: 10px;
+    animation: reverse;
+}
+
+.boarder-blue{
+    border: 2px dotted blue;
+}
+
+article{
+    padding-top: 30px;
+    text-align: center;
+}
